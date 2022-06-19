@@ -5,6 +5,8 @@
 
 package com.mycompany.practicadecodigos;
 
+import java.util.Scanner;
+
 /**
  *
  * @author victo
@@ -12,6 +14,15 @@ package com.mycompany.practicadecodigos;
 public class PracticadeCodigos {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+       sumaDosNumeros();
+    }
+    //Creando metodos
+    public static void sumaDosNumeros(){
+    int num1=5;
+    int num2=4;
+    int resultado=num1+num2;
+    
+        System.out.println("La suma es: "+resultado);
+        
     }
 }
